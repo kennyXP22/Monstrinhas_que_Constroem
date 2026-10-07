@@ -1,0 +1,44 @@
+:root {
+  --bg: #FFFE7A; --card: #fff; --ink: #2b2140; --muted: #6b5f80; --line: #e5d8c4; --accent: #6d5bd0;
+  --radius: 22px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: clamp(17px, 1.1vw + 12px, 26px)/1.5 'Fredoka', 'Trebuchet MS', system-ui, sans-serif; }
+main { max-width: 1100px; margin: 0 auto; padding: clamp(14px, 3vw, 40px) clamp(12px, 3vw, 40px) 48px; }
+h1, h2, h3 { line-height: 1.2; margin: .3em 0; }
+h1 { font-size: clamp(1.6rem, 4vw, 2.6rem); }
+h2 { font-size: clamp(1.4rem, 3.4vw, 2.2rem); }
+h3 { font-size: clamp(1.15rem, 2.6vw, 1.6rem); }
+.muted { margin: 0; color: var(--muted); font-size: .9em; }
+.card { background: var(--card); border: 3px solid var(--accent); border-radius: var(--radius); padding: clamp(14px, 3vw, 32px); margin: 14px 0; }
+.center { text-align: center; }
+.guide { display: flex; gap: 12px; align-items: center; margin: 8px 0; text-align: left; }
+.avatar { flex: none; width: clamp(56px, 9vw, 110px); height: clamp(56px, 9vw, 110px); border-radius: 50%; }
+button { font: inherit; cursor: pointer; width: 100%; margin: 8px 0; padding: clamp(12px, 1.8vw, 20px) clamp(14px, 2vw, 24px); border-radius: 16px; border: 3px solid var(--accent); background: var(--card); color: var(--ink); text-align: left; }
+button:hover { background: var(--accent); color: #fff; }
+button:focus-visible, textarea:focus-visible { outline: 4px solid var(--ink); outline-offset: 2px; }
+button.primary { background: var(--accent); color: #fff; text-align: center; font-weight: 600; font-size: 1.15em; }
+.talk { border-left: 6px solid var(--accent); padding: 4px 12px; margin: 12px 0; }
+.progress { display: flex; gap: 6px; margin-bottom: 6px; }
+.progress i { flex: 1; height: clamp(10px, 1.4vw, 16px); border-radius: 8px; background: var(--line); }
+.progress i.on { background: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips span { color: #fff; border-radius: 20px; padding: 4px 14px; font-size: 16px; }
+textarea { width: 100%; font: inherit; margin: 6px 0 12px; padding: 10px; border: 3px solid var(--line); border-radius: 14px; background: #fff; color: var(--ink); }
+
+/* Personagem ao lado da fase */
+.stage { display: grid; grid-template-columns: clamp(110px, 26vw, 340px) 1fr; gap: 16px; align-items: end; }
+.stage.right { grid-template-columns: 1fr clamp(110px, 26vw, 340px); }
+.stage.right .full { order: 2; }
+.full { width: 100%; height: auto; max-height: 80vh; object-fit: contain; }
+.podium { display: flex; justify-content: center; align-items: flex-end; gap: 8px; margin: 12px 0; }
+.podium img { width: 30%; max-height: 320px; object-fit: contain; }
+
+/* Loading do CONSTRUINDO... (escala com a largura da tela) */
+.loading-chars { display: flex; justify-content: center; gap: clamp(14px, 4vw, 48px); margin: clamp(16px, 4vw, 40px) 0; }
+.loading-chars img { width: clamp(84px, 20vw, 220px); height: clamp(84px, 20vw, 220px); border-radius: 50%; animation: hop .9s ease-in-out infinite; }
+@keyframes hop { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-14%); } }
+.loading-bar { height: clamp(14px, 2.4vw, 26px); border-radius: 14px; margin: 8px auto clamp(16px, 3vw, 32px); max-width: 80%; background: linear-gradient(90deg, #b3263a, #6d5bd0, #d9a40f, #b3263a); background-size: 300% 100%; animation: slide 2s linear infinite; }
+@keyframes slide { to { background-position: 300% 0; } }
+.podium img { max-height: 50vh; }
+@media (prefers-reduced-motion: reduce) { .loading-chars img, .loading-bar { animation: none; } }

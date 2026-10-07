@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Cabeça",
+    "skill": "Pensar",
+    "guide": "alex",
+    "description": "Antes de agir, podemos pensar no que está acontecendo, no que queremos e nas possibilidades.",
+    "guideLine": "Grandes planos começam na cabeça!",
+    "missions": [
+      {
+        "id": 1,
+        "title": "A brincadeira",
+        "situation": "Você e suas amigas estão brincando. Uma delas sugere uma brincadeira que você não queria fazer.",
+        "question": "O que você pode pensar antes de responder?",
+        "options": [
+          "“Eu não quero, então ninguém vai brincar.”",
+          "“Posso dizer o que eu gostaria e pensar em uma brincadeira que fique legal para todo mundo.”",
+          "“Vou fazer do jeito que elas querem mesmo sem gostar.”"
+        ],
+        "conversation": "Existe uma terceira possibilidade além de “eu faço o que quero” ou “eu faço o que os outros querem”?"
+      },
+      {
+        "id": 2,
+        "title": "O plano mudou",
+        "situation": "Você estava muito animada para fazer uma coisa com sua família, mas o plano mudou e não vai acontecer como você imaginava.",
+        "question": "O que você pode pensar quando uma coisa que queria não acontece do jeito que imaginou?",
+        "options": [
+          "“Então acabou, não tem mais nada que eu possa fazer.”",
+          "“Posso ficar chateada e depois pensar em outra possibilidade.”",
+          "“Precisa acontecer exatamente como eu queria.”",
+          "“Posso descobrir se existe outro momento ou outra forma de fazer algo legal.”"
+        ],
+        "conversation": "Podemos ficar frustrados e, mesmo assim, procurar outro caminho?"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Olhos",
+    "skill": "Observar",
+    "guide": "violet",
+    "description": "Um bom detetive observa antes de escolher o que fazer.",
+    "guideLine": "Cada detalhe tem uma história…",
+    "missions": [
+      {
+        "id": 3,
+        "title": "A brincadeira mudou",
+        "situation": "Você está brincando com seus amigos. No começo, todo mundo está se divertindo. Depois de um tempo, uma das crianças fica quietinha e para de participar.",
+        "question": "O que você percebeu? O que você poderia fazer?",
+        "options": [
+          "Continuar brincando sem perguntar nada.",
+          "Perguntar se ela ainda quer brincar.",
+          "Perguntar se ela gostaria de mudar alguma coisa na brincadeira.",
+          "Parar a brincadeira imediatamente."
+        ],
+        "conversation": "Observar ajuda a escolher o que fazer, mas observar não significa saber exatamente o que a outra pessoa está pensando."
+      },
+      {
+        "id": 4,
+        "title": "Cada um quer uma coisa",
+        "situation": "Você está em casa com sua família. Você quer jogar um jogo, mas percebe que sua mãe está fazendo outra coisa e seu avô está assistindo televisão.",
+        "question": "Antes de escolher o que fazer, o que você pode observar?",
+        "options": [
+          "Quem está disponível.",
+          "O que cada pessoa está fazendo.",
+          "Se alguém pode participar.",
+          "Se existe outro momento ou atividade possível."
+        ],
+        "conversation": "Depois de observar: “O que você faria agora?”"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Orelhas",
+    "skill": "Ouvir",
+    "guide": "violet",
+    "description": "Ouvir é prestar atenção ao que a outra pessoa está dizendo, mesmo quando a resposta não é exatamente o que queríamos.",
+    "guideLine": "O mundo também é mágico — se a gente escuta!",
+    "missions": [
+      {
+        "id": 5,
+        "title": "Esperar a vez",
+        "situation": "Sua amiga está contando uma história. Enquanto ela fala, você lembra de uma coisa muito engraçada que aconteceu com você.",
+        "question": "O que você pode fazer?",
+        "options": [
+          "Interromper para não esquecer.",
+          "Esperar ela terminar e depois contar sua história.",
+          "Começar a falar enquanto ela ainda está falando."
+        ],
+        "conversation": "O que pode ajudar quando estamos com muita vontade de falar?"
+      },
+      {
+        "id": 6,
+        "title": "Escutar de verdade",
+        "situation": "Uma pessoa importante para você está contando que teve um dia difícil. Você também teve um problema naquele dia.",
+        "question": "Como você pode mostrar que está ouvindo?",
+        "options": [
+          "Esperar a pessoa terminar antes de contar o seu problema.",
+          "Fazer uma pergunta sobre o que ela contou.",
+          "Contar imediatamente uma história parecida para mostrar que você entende.",
+          "Dizer que quer falar sobre o seu problema também e combinar um momento para isso."
+        ],
+        "conversation": "Ouvir alguém significa esquecer o que você sente? Ou podemos ouvir e depois falar sobre nós?"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Boca",
+    "skill": "Comunicar",
+    "guide": "solariun",
+    "description": "Nossa boca pode ajudar a expressar desejos, sentimentos, opiniões e limites.",
+    "guideLine": "Juntos a gente cria coisas incríveis!",
+    "missions": [
+      {
+        "id": 7,
+        "title": "O que eu quero",
+        "situation": "Sua mãe está fazendo uma atividade em casa e você gostaria de passar um tempo com ela.",
+        "question": "Como você poderia falar o que gostaria?",
+        "options": [
+          "“Você nunca tem tempo para mim.”",
+          "“Mãe, eu queria ficar um pouquinho com você. Quando você terminar, podemos fazer alguma coisa juntas?”",
+          "“Tá bom, deixa pra lá.”"
+        ],
+        "conversation": "Qual frase mostra melhor o que você sente e o que gostaria que acontecesse?"
+      },
+      {
+        "id": 8,
+        "title": "Dizer não",
+        "situation": "Uma amiga quer brincar de uma coisa que você não está com vontade de fazer. Você gosta dela, mas não quer aquela brincadeira.",
+        "question": "Como você poderia falar?",
+        "options": [
+          "“Não quero. Você é chata.”",
+          "“Essa brincadeira eu não quero fazer. Podemos escolher outra?”",
+          "Fazer mesmo sem querer para a amiga não ficar triste."
+        ],
+        "conversation": "Dizer “não” significa deixar de gostar da pessoa?"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Braços e mãos",
+    "skill": "Fazer / Agir",
+    "guide": "solariun",
+    "description": "Depois de pensar e falar, às vezes precisamos transformar uma ideia em uma pequena ação.",
+    "guideLine": "Criar também é uma forma de espalhar magia!",
+    "missions": [
+      {
+        "id": 9,
+        "title": "Posso ajudar?",
+        "situation": "Seu pai está montando alguma coisa em casa. Você gostaria de participar, mas não sabe se pode.",
+        "question": "O que você poderia fazer?",
+        "options": [
+          "Pegar as coisas sem perguntar.",
+          "Perguntar se pode ajudar.",
+          "Ir embora porque ele não chamou você."
+        ],
+        "conversation": "Faça uma pequena encenação: “Como você perguntaria?”"
+      },
+      {
+        "id": 10,
+        "title": "Um abraço",
+        "situation": "Você percebe que sua avó parece precisar de carinho e pensa em abraçá-la.",
+        "question": "O que você pode fazer antes de abraçar?",
+        "options": [
+          "Abraçar sem perguntar.",
+          "Perguntar se ela quer um abraço.",
+          "Abrir os braços e esperar para perceber se ela quer.",
+          "Escolher outra forma de demonstrar carinho."
+        ],
+        "conversation": "Nosso corpo também comunica. Como perceber os sinais do corpo da outra pessoa?"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pernas e pés",
+    "skill": "Escolher caminhos",
+    "guide": "alex",
+    "description": "Nem sempre conseguimos mudar o que aconteceu. Podemos, porém, pensar no próximo passo.",
+    "guideLine": "Sonhe, planeje, conquiste!",
+    "missions": [
+      {
+        "id": 11,
+        "title": "Não aconteceu como eu queria",
+        "situation": "Você queria muito fazer alguma coisa com alguém importante para você, mas hoje não foi possível.",
+        "question": "O que você pode fazer agora?",
+        "options": [
+          "Ficar pensando que tudo deu errado.",
+          "Perguntar se existe outro momento para fazerem algo juntos.",
+          "Pensar em outra coisa que você gostaria de fazer hoje.",
+          "Ficar brava até a outra pessoa mudar de ideia."
+        ],
+        "conversation": "Pode existir mais de um caminho possível? Qual faria sentido para você?"
+      },
+      {
+        "id": 12,
+        "title": "O último caminho",
+        "situation": "Você tentou conversar sobre uma situação, mas a outra pessoa não concordou com o que você queria. Você ficou frustrada.",
+        "question": "O que seu monstrinho pode fazer agora?",
+        "options": [
+          "Parar: “Não deu certo, então acabou.”",
+          "Tentar de outro jeito: “Existe outra maneira de resolver?”",
+          "Caminhar: “Talvez eu não consiga o que quero agora, mas posso escolher o que fazer daqui para frente.”"
+        ],
+        "conversation": "Missão aberta: não existe uma única resposta. Explique o caminho que você escolheria e por quê."
+      }
+    ]
+  }
+]
